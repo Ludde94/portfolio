@@ -66,33 +66,32 @@ function Dropdown({ isOpen, toggle }) {
           className="menu-item"
           to="projects"
         >
-          Projects
+          Projekt
         </NavLink>
         <NavLink
           onClick={toggle}
           className="menu-item"
           to="about"
         >
-          About
+          Om mig
         </NavLink>
         <NavLink
           onClick={toggle}
           className="menu-item"
           to="contact"
         >
-          Contact
+          Kontakt
         </NavLink>
       </NavMenu>
-      <NavBtn onClick={toggle}>
+      <NavBtn>
         <a
           className="btn PrimaryBtn"
-          href="https://www.linkedin.com/in/ludvig-jenisch-81b6a621b/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/ludvig.PDF"
+          download="ludvig.PDF"
         >
-          Resume
+          CV
         </a>
-      </NavBtn>
+        </NavBtn>
     </SiderBar>
   );
 }

@@ -32,7 +32,7 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hej, jag heter ludvig.',
+                  'Hej, jag heter Ludvig.',
                   () => setShowSubtitle(true)
                 ]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -44,38 +44,37 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    'A Full-Stack Developer.',
+                    'En blivande systemutvecklare.',
                     1000,
-                    'A BCIT graduate.',
-                    // 'I design and code beautifully simple things, and I love what I do.',
+                    'En blivande Front-end utvecklare.',
                     1000,
-                    'A problem solver.',
+                    'En blivande Back-end utvecklare.',
                     1000,
-                    'An innovative thinker.',
+                    'Med en kandidatexamen i systemvetenskap.',
                     1000,
-                    'A....',
+                    'Med en passion för ständig lärande',
                     1000,
-                    'A.... cool guy?',
+                    'Alltid nyfiken på att utforska nya tekniker.',
                     1000,
-                    "Ok...",
+                    'En.... trevlig kille?',
                     1000,
-                    "Ok...  I'm running out of ideas...",
+                    "Ok...En väldigt bra teamplayer!",
                     1000,
-                    "Uhh...",
+                    "Hmm...ladda ner mitt CV och kolla vad jag gjort innan",
                     1000,
-                    "Uhh... you can scroll down to see my projects now...",
+                    "Ok...  jag har snart inga fler ideér...",
+                    1000,
+                    "Hmm... scrolla ner för att se några av mina tidigare projekt...",
                     300,
                     () => setShowScrollDown(true),
                     1000,
-                    "Seriously, my projects are really cool, go check them out!",
+                    "Fortfarande...",
                     1000,
-                    "You're uh...",
+                    "Fortfarande... här?",
+                    1500,
+                    "Detta har varit intressant, jag startar om loopen nu!",
                     1000,
-                    "You're uh... still here?",
-                    1000,
-                    "Ok, this has been fun, but I'm gonna restart the loop now...",
-                    1000,
-                    "See ya! :)",
+                    "Ha det bra så länge :)",
                     500,
                   ]}
                   speed={50}
@@ -99,7 +98,7 @@ function Hero() {
         {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
           <ScrollLink>
-            Scroll down
+            Scrolla ner
             <img
               src="/scroll-down.svg"
               alt="scroll-down"

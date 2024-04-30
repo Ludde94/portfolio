@@ -23,25 +23,24 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Ludvig Jenisch</strong>. XXXXXXX
+            Hej, mitt namn är <strong>Ludvig Jenisch</strong>, och jag bor i utkanten av Malmö med min lilla familj. Jag brinner för systemvetenskap och söker nu möjligheter att påbörja min framtida karriär.
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            xxxxxxxx
+
+            Jag har genomfört systemutvecklarprogrammet vid Högskolan Kristianstad. Under mina studier deltog jag i en rad spännande kurser och projekt, vilket har gett mig en stabil grund inom utveckling. Jag ser fram emot att fortsätta att utveckla min kunskap och erfarenhet inom området.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              xxxxxx
+            Som person betraktar jag mig själv som en nyfiken, kommunikativ och ödmjuk lagspelare. Jag tror på kraften i samarbete och gemensamt arbete mot gemensamma mål. Jag är övertygad om att dessa egenskaper kommer att vara till stor nytta för mig i mitt framtida arbete inom denna branch.
               <div className="tagline2">
-                I have become confident using the following technologies:
+              Jag har blivit bekant med att använda följande tekniker:
               </div>
             </ScrollAnimation>
-            
-
             <Technologies>
               {stackList.map((stack, index) => (
                 <ScrollAnimation animateIn="fadeInLeft" key={index}>

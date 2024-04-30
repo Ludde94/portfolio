@@ -1,22 +1,22 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/medlemma-playstore.png",
+    title: "Medlemma",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
+      "I det här projektet utvecklade jag och fyra andra en Android-app som gjorde det möjligt för användare att hantera sina olika medlemskap.",
+    tech_stack: ["Kotlin", "Jetpack", "Compose", "Firebase"],
+    github_url: "https://github.com/Stuhren/Medlemma",
+    demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/house.png",
+    title: "Interactive house",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+      "I det här projektet utvecklade jag och mitt team både en hemsida och en app som kunde styra en modell av ett hus. Till exempel tända och släcka lamporna",
+    tech_stack: ["React Native", "Expo","TypeScript/JavaScript", "Firebase"],
+    github_url: "https://github.com/SoftwareEngineering-Group2",
+    demo_url: "",
   },
 ];
 
@@ -82,5 +82,21 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
+  },
+  {
+    img: "/kotlin.png",
+    name: "Kotlin",
+  },
+  {
+    img: "/intellij.png",
+    name: "IntelliJ",
+  },
+  {
+    img: "/anaconda.png",
+    name: "Anaconda",
+  },
+  {
+    img: "/android.png",
+    name: "AndroidStudio",
   },
 ];

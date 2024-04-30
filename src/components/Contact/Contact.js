@@ -19,7 +19,7 @@ function Contact() {
     <ContactWrapper id="contact">
 
       <div className="Container">
-        <div className="SectionTitle">Get In Touch</div>
+        <div className="SectionTitle">Kontakta Mig</div>
         <ScrollAnimation animateIn="fadeIn" >
           <div className="BigCard">
             <Email>
@@ -31,7 +31,7 @@ function Contact() {
                   }}
                   open={showTooltip}
                   onClose={() => setShowTooltip(false)}
-                  title="Copied!"
+                  title="Kopierad!"
                   TransitionComponent={Zoom}
                   disableFocusListener
                   disableHoverListener
@@ -49,7 +49,7 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Send Email
+                Skicka email
               </a>
             </Email>
           </div>

@@ -7,30 +7,29 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="/logo.png"
+            src="/icon.png"
             alt="logo"
           />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">
-            Projects
+            Projekt
           </NavLink>
           <NavLink className="menu-item" to="about">
-            About
+            Om mig
           </NavLink>
           <NavLink className="menu-item" to="contact">
-            Contact
+            Kontakt
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <a
-            className="btn PrimaryBtn"
-            href="https://www.linkedin.com/in/ludvig-jenisch-81b6a621b/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <a
+          className="btn PrimaryBtn"
+          href="/ludvig.PDF"
+          download="ludvig.PDF"
+        >
           CV
-          </a>
+        </a>
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>

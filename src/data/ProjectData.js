@@ -1,21 +1,30 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/medlemma-playstore.png",
-    title: "Medlemma",
+    img: "/book.png",
+    title: "BookDB",
     description:
-      "I det här projektet utvecklade jag och fyra andra en Android-app som gjorde det möjligt för användare att hantera sina olika medlemskap.",
-    tech_stack: ["Kotlin", "Jetpack", "Compose", "Firebase"],
-    github_url: "https://github.com/Stuhren/Medlemma",
+      "Appen erbjuder en plattform för att dokumentera böcker du har läst, hantera en personlig wishlist, samt få insikter genom statistik om genrer och läsvanor; den inkluderar också möjligheten att scanna ISBN-nummer för att hämta bokinformation från både Google Books API och Kungliga bibliotekets API. ",
+    tech_stack: ["React Native", "Expo","JavaScript", "React-Native-async-storage"],
+    github_url: "https://github.com/Ludde94/BookDB",
     demo_url: "",
   },
   {
     img: "/house.png",
     title: "Interactive house",
     description:
-      "I det här projektet utvecklade jag och mitt team både en hemsida och en app som kunde styra en modell av ett hus. Till exempel tända och släcka lamporna",
+      "I det här projektet utvecklade jag och mitt team på tretton internationella studenter både en hemsida och en app som kunde styra en modell av ett (smart)hus. Till exempel tända och släcka lamporna",
     tech_stack: ["React Native", "Expo","TypeScript/JavaScript", "Firebase"],
     github_url: "https://github.com/SoftwareEngineering-Group2",
+    demo_url: "",
+  },
+  {
+    img: "/medlemma-playstore.png",
+    title: "Medlemma",
+    description:
+      "I det här projektet utvecklade jag och fyra andra en Android-app som gjorde det möjligt för användare att hantera sina olika medlemskap.",
+    tech_stack: ["Kotlin", "Jetpack", "Compose", "Firebase"],
+    github_url: "https://github.com/Stuhren/Medlemma",
     demo_url: "",
   },
 ];

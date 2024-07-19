@@ -5,7 +5,7 @@ export const ProjectList = [
     title: "BookDB",
     description:
       "Appen erbjuder en plattform för att dokumentera böcker du har läst, hantera en personlig wishlist, samt få insikter genom statistik om genrer och läsvanor; den inkluderar också möjligheten att scanna ISBN-nummer för att hämta bokinformation från både Google Books API och Kungliga bibliotekets API. ",
-    tech_stack: ["React Native", "Expo","JavaScript", "React-Native-async-storage"],
+    tech_stack: ["React Native", "Expo","JavaScript", "React-Native-async-storage", "REST API"],
     github_url: "https://github.com/Ludde94/BookDB",
     demo_url: "",
   },

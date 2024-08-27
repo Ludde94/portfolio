@@ -23,7 +23,7 @@ export const ProjectList = [
     title: "Medlemma",
     description:
       "I det här projektet utvecklade jag och fyra andra en Android-app som gjorde det möjligt för användare att hantera sina olika medlemskap.",
-    tech_stack: ["Kotlin", "Jetpack", "Compose", "Firebase"],
+    tech_stack: ["Kotlin", "Jetpack Compose", "Firebase"],
     github_url: "https://github.com/Stuhren/Medlemma",
     demo_url: "",
   },
